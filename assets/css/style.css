@@ -1,0 +1,43 @@
+@font-face {
+    font-family: montserrat;
+    src: url("../fonts/Montserrat/static/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: literata;
+    src: url("../fonts/Literata/static/Literata/Literata-Medium.ttf");
+}
+
+body h2 {
+    color: red;
+    font-family: montserrat, sans-serif;
+}
+
+body main p:nth-of-type(1) {
+    color: red;
+    font-size: 16px;
+}
+
+main p {
+    font-family: literata, serif;
+}
+
+body main a img {
+    width: 100px;
+    border: 10px solid green;
+    border-radius: 50%;
+}
+
+body main div {
+    background-color: lightgray;
+    width: 400px;
+}
+
+body main div p:nth-of-type(1) {
+    color: green;
+}
+
+body main div ul,
+ol {
+    font-family: montserrat, sans-serif;
+}
